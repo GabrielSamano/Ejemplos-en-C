@@ -1,7 +1,7 @@
-#include <stdio.h>
+
 // Comenzando con un Hola Mundo en C 
 int main() {
-    printf("Hello World"\n);
+    printf("Hello World\n");
     printf("i´m learning C");
     return 0;
 }
