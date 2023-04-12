@@ -3,7 +3,7 @@
 #include <unistd.h>
 
 int n,i;                             // Variables para la entrda del usuario
-float prom,cal,calMax,calMin;        // Variables para obtener el promedio y demas calificaciones de los alumnos
+float prom,cal,calMax,calMin;        // Variables para obtener el promedio y calificaciones de los alumnos
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
     scanf("%d", &n);
 
     for(i=0;i<n;i++){
-        printf("Ingresa la calificacion de los alumnos %d:",i+1);      // Se ingresan las calificaciones 
+        printf("Ingresa la calificacion de los alumnos %d:",i+1);   // Se ingresan las calificaciones 
         scanf("%f", &cal);
 
         prom=prom+cal;
